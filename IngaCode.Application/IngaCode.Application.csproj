@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IngaCode.Domain\IngaCode.Domain.csproj" />
+    <ProjectReference Include="..\IngaCode.Infrastructure\IngaCode.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
